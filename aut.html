@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid burlywood;
+        border-radius: 4px;
+        box-sizing: border-box;
+  }
+
+input[type=submit] {
+  width: 100%;
+  background-color:burlywood;
+  color: az;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:rgb(234, 173, 93);
+}
+
+div {
+  border-radius: 5px;
+  background-color:antiquewhite;
+  padding: 20px;
+}
+</style>
+</head>
+<body style="background-color:rgb(72, 92, 31);">
+    <h1 style="text-align: center; color: cadetblue; background-color: azure; padding-top:24px;border-radius: 20px;">Welcome to User authentication</h1>  
+    <h1 style="background-color:rgb(72, 92, 31) ; color:floralwhite;text-align: center;padding: 7.5%;">Enter valid details for authentication</h1>
+    <div style="padding-top: 0px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+       <form action="aut_log.html">
+         <label for="name">Full name</label>
+         <input type="text" id="name" name="name" placeholder="Your Full name..">
+   
+         <label for="email">Email ID</label>
+         <input type="text" id="email" name="emailID" placeholder="Your Email ID..">
+         
+         <label for="password">Password</label>
+         <input type="text" id="password" name="password" placeholder="Your Password..">
+   
+         </select>
+       
+         <input type="submit" value="Submit">
+       </form>
+     </div>
+</body>
+</html>
